@@ -255,7 +255,9 @@ Detects when extruder toolheads are properly parked.
 
 **Connection**: Virtual serial `/tmp/klipper_host_mcu`
 
-**Platform**: RK3588-based SBC (Linux GPIO control)
+**Platform**: RK3562-based SBC (Linux GPIO control)
+
+[RK3562 Datasheet](https://rockchips.net/wp-content/uploads/2025/08/Rockchip_RK3562_Datasheet_V2.0-20241104.pdf)
 
 ### System Control
 
@@ -676,4 +678,5 @@ Non-contact bed distance sensing for mesh leveling and Z-offset calibration.
 ---
 
 *Document generated from printer.cfg and Klipper source analysis with the help of Claude*
-*Last updated: 2025-12-05*
+
+*Last updated: 2026-03-12*
